@@ -11,15 +11,15 @@ func main() {
 	a = "olá a"
 	fmt.Println(a)
 
-	// declaracao e atribuicao
+	// declaracao e inicialização
 	var b string = "olá b"
 	fmt.Println(b)
 
-	// declaracao e atribuicao sem especificar o tipo
+	// declaracao e inicialização sem especificar o tipo
 	var c = "olá c"
 	fmt.Println(c)
 
-	// gopher - declaracao e atribuicao curta
+	// gopher - declaracao e inicialização curta
 	d := "olá d"
 	fmt.Println(d)
 

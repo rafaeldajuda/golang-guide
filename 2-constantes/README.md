@@ -52,3 +52,15 @@ const (
     f = true
 )
 ```
+
+No exemplo abaixo é mostrado como declarar e iniciar constantes com os mesmos valores. A primeira constante precisa ter um valor definido e enquanto as seguintes, caso não seja passado nenhuma valor a elas, irão receber o mesmo valor da primeira. No exmplo abaixo, as constantes **b** e **c** possuem o mesmo valor da constante **a**, e a constante **e** possui o mesmo valor da constante **d**.
+
+```go
+const (
+    a = 10
+    b
+    c 
+    d = "sou uma letra"
+    e
+)
+```
